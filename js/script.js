@@ -372,7 +372,39 @@ const projectGalleries = {
     ],
     github: "#",
   },
-};
+   "powerbi-health": {
+     title: "Health Analytics - Power BI Dashboard",
+     images: [
+       "images/powerbi-health/health-overview.png",
+       "images/powerbi-health/disease-trends.png",
+       "images/powerbi-health/health-outcomes.png",
+       "images/powerbi-health/performance-review.png",
+     ],
+     captions: [
+       "Health Overview Dashboard",
+       "Disease Trends Analysis",
+       "Health Outcomes",
+       "Performance Review",
+     ],
+     github: "#",
+    },
+   "powerbi-new-project": {
+     title: "HealthScope Indonesia: Analisis Kesehatan Nasional 2010–2024",
+     images: [
+       "project/project9/overview nasional.png",
+       "project/project9/provincial comparison.png",
+       "project/project9/factor analysis.png",
+       "project/project9/insight.png",
+     ],
+     captions: [
+       "Overview Nasional",
+       "Provincial Comparison",
+       "Factor Analysis",
+       "Insight",
+     ],
+     github: "#",
+    },
+ };
 
 // Full gallery state
 let currentFullGalleryProject = null;
